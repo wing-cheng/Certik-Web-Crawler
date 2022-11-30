@@ -1,2 +1,2 @@
 # Certik-Web-Crawler
-A web crawler for grabbing smart contract audit report on Certik
+A web crawler that fetches smart contract audit reports on Certik
