@@ -28,7 +28,6 @@ sess.headers.update({'cookie': cookie})
 resp = sess.post(url=url, data=json.dumps(payload))
 data = resp.json()
 postfix = []
-id = 1
 if resp.status_code != 200:
     print("Failed to fetch the leader board, exited.")
 
